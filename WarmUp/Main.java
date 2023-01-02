@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-    nearHundert nearHundert = new nearHundert();
-    nearHundert.nearHundred(20);
-    System.out.println(nearHundert.nearHundred(20));
-    System.out.println(nearHundert.nearHundred(90));
-    System.out.println(nearHundert.nearHundred(201));
+    MissinChar missinChar= new MissinChar();
+    String yenikelime=missinChar.missingChar("kelime", 3);
+    System.out.println(yenikelime);
     }
 }
