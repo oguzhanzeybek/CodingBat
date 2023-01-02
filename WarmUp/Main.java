@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-     diff21 diff21 = new diff21();
-     
-     System.out.println(diff21.MikroKume(30));
-     System.out.println(diff21.MikroKume(10));
-     System.out.println(diff21.MikroKume(2));
-      
+    nearHundert nearHundert = new nearHundert();
+    nearHundert.nearHundred(20);
+    System.out.println(nearHundert.nearHundred(20));
+    System.out.println(nearHundert.nearHundred(90));
+    System.out.println(nearHundert.nearHundred(201));
     }
 }
