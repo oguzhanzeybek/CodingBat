@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-     BackAraund  backAraund= new BackAraund();
-     backAraund.kelimeOyunu("Oguzhan");
-     System.out.println(backAraund.kelimeOyunu("Oguzhan"));
+     SayiOyunu sayiOyun = new SayiOyunu();
+     boolean degisken =sayiOyun.sayilar(13, 11, 3);
+     System.out.println(degisken);
     }
 }
