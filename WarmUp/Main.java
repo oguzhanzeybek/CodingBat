@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-
-        Sayilarke sayilarke = new Sayilarke();
-        int hangisi=sayilarke.sayioyunu(4, 4);
-        System.out.println(hangisi);
+Sayilar sayilar = new Sayilar();
+sayilar.stringE("elelelelle");
+System.out.println(sayilar.stringE("elelelelle"));
     }
 }
