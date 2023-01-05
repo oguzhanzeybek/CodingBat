@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-Sayilar sayilar = new Sayilar();
-sayilar.stringE("elelelelle");
-System.out.println(sayilar.stringE("elelelelle"));
+KelimeSacmalamasi sacma = new KelimeSacmalamasi();
+
+System.out.println(sacma.kelime("sanane", 2));
     }
 }
