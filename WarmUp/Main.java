@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-KelimeSacmalamasi sacma = new KelimeSacmalamasi();
-
-System.out.println(sacma.kelime("sanane", 2));
+        Maymun maymun = new Maymun();
+        
+        System.out.print(maymun.MaymunlarAglamasin(false, false));
     }
 }
