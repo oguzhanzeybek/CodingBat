@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-       PapaganKonusursa papaganKonusursa = new PapaganKonusursa();
-      System.out.println( papaganKonusursa.papaganKonusursa(true, 23));
+      DogrumuDogru dogrumuDogru = new DogrumuDogru();
+      boolean deger=dogrumuDogru.main(2, 4, true);
+      System.out.println(deger);
+       
     }
 }
