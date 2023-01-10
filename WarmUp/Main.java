@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-      frontback frontback=new frontback();
-      String deger =frontback.kelimeMakinasi("sadece");
-      System.out.println(deger);
-       
+     or or= new or();
+     System.out.println(or.katimi(5));
     }
 }
